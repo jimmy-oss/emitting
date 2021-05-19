@@ -1,7 +1,8 @@
-# Goals
+# EMITTING EVENTS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
-
+# PROJECT DESCRIPTION
+The event being emitted is isComplete. We catch this event in the parent component using parenthesis()and then define that when it is emitted, the completeGoal($event,i) function should be called. Inside the function, we have used the special variable, $event as a placeholder for the values that we expect to be emitted by the event. We have also passed in the index i of the goal item in the function.The will enable the users to emit the goal array item.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
